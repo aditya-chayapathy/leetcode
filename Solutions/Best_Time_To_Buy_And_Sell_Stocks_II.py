@@ -21,7 +21,6 @@ class Solution:
                     end = i
                     searchingForStart = True
                     profit += (prices[end] - prices[start])
-                    print(prices[end] - prices[start])
 
         if prices[-1] >= prices[-2]:
             end = len(prices) - 1
