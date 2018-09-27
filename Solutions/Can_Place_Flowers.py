@@ -18,9 +18,6 @@ class Solution:
                 count += 1
                 flowerbed[-1] = 1
 
-            prev = 0
-            curr = 0
-            succ = 0
             for i in range(1, len(flowerbed) - 1):
                 prev = flowerbed[i - 1]
                 curr = flowerbed[i]
