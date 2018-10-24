@@ -8,7 +8,6 @@ class Solution(object):
         bin_x = "{0:b}".format(x)
         bin_y = "{0:b}".format(y)
         if len(bin_x) != len(bin_y):
-            smaller = ""
             if len(bin_x) > len(bin_y):
                 smaller = "y"
             else:
