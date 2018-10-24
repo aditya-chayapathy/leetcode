@@ -16,7 +16,6 @@ class Solution(object):
         """
         self.recurrsiveSolution(root, 0)
 
-        result = []
         for i in range(1, len(self.traversal), 2):
             self.traversal[i].reverse()
 
