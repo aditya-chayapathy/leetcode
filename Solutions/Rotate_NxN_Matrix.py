@@ -17,17 +17,3 @@ class Solution:
 
         return A
 
-
-if __name__ == "__main__":
-    sol = Solution()
-    A = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
-    for item in A:
-        for ele in item:
-            print(ele, end=" ")
-        print()
-    print("\n\n")
-    B = sol.rotateMatrix(A)
-    for item in B:
-        for ele in item:
-            print(ele, end=" ")
-        print()
